@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95ae41d2-3a45-4531-ae04-3fb0d4b396df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ahmet TUNÇ/.idea/Site01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev02 - Ahmet TUNÇ/.idea/Odev02 - Ahmet TUNÇ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev03 - Ahmet - Neşe/.idea/hafta 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev03 - Ahmet - Neşe/Yaş Hesaplama - Ahmet Tunç/.idea/YasHesaplama.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev03 - Ahmet - Neşe/seturday/.idea/seturday.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev04/.idea/Odev04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev04/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odev04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../site02/.idea/site02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1k3FcrlUE8NvVMwS7HmlvHYA7p6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95ae41d2-3a45-4531-ae04-3fb0d4b396df" name="Default Changelist" comment="" />
+      <created>1604921451121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604921451121</updated>
+      <workItem from="1604921452560" duration="16803000" />
+      <workItem from="1604955256431" duration="11670000" />
+      <workItem from="1605010198694" duration="30282000" />
+      <workItem from="1605097064760" duration="30113000" />
+      <workItem from="1605176422245" duration="11613000" />
+      <workItem from="1605270597544" duration="29000" />
+      <workItem from="1605619423410" duration="603000" />
+      <workItem from="1605628120714" duration="24867000" />
+      <workItem from="1605694792350" duration="11581000" />
+      <workItem from="1605712548090" duration="4249000" />
+      <workItem from="1605718612995" duration="1887000" />
+      <workItem from="1605815498058" duration="602000" />
+      <workItem from="1605832029941" duration="4664000" />
+      <workItem from="1605876918888" duration="21731000" />
+      <workItem from="1605917960505" duration="5379000" />
+      <workItem from="1606048559463" duration="16625000" />
+      <workItem from="1606146255564" duration="18782000" />
+      <workItem from="1606227030257" duration="35624000" />
+      <workItem from="1606327022340" duration="3658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2420" y="185" key="FileChooserDialogImpl" timestamp="1605127045707">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1605127045707" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1604921930123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1604921930123" />
+    <state x="572" y="133" key="RollbackChangesDialog" timestamp="1605148361424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="133" key="RollbackChangesDialog/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1605148361424" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606161937755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606161937755" />
+    <state x="409" y="172" width="717" height="650" key="search.everywhere.popup" timestamp="1606238208233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1605707308488" />
+    <state x="409" y="172" width="717" height="650" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606238208233" />
+  </component>
+</project>

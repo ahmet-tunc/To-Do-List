@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="TR-tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/js/loginScript.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="assets/js/indexScript.js"></script>
+    <script src="assets/js/TimeLimit.js"></script>
+    <link rel="stylesheet" href="assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <title>To Do List</title>
+    <style>
+        label{
+            cursor: pointer;
+        }
+        li>i:hover {
+            transition: 0.4s;
+            cursor: pointer;
+            color: #000 !important;
+        }
+
+        .time a{
+            transition: 1s;
+        }
+        .time i{
+            transition: 1s;
+        }
+        .sign a{
+            transition: 1s;
+        }
+        .sign i{
+            transition: 1s;
+        }
+
+        .time:hover>a{
+            color: #33c855 !important;
+            cursor: default;
+
+        }
+
+        .time:hover>i{
+            color: #fff !important;
+        }
+
+        .sign:hover>a{
+            color: #98101c !important;
+        }
+
+        .sign:hover>a>i{
+            color: #fff !important;
+        }
+
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="wrapper">
+<nav class="navbar navbar-light bg-dark">
+    <div class="navbar-brand float-left text-white">
+        <h2>To Do List</h2>
+    </div>
+
+    <div class="nav-link float-right">
+        <div class="float-left mr-3 time">
+            <a class="text-decoration-none text-white" id="time"></a>
+            <i class="fa fa-clock text-success ml-2"></i>
+        </div>
+        <div class="float-right sign">
+            <a href="javascript:void(0)" onclick="logout()" class="text-decoration-none text-white">Çıkış Yap
+                <i class="fa fa-sign-out-alt text-danger ml-2"></i></a>
+        </div>
+    </div>
+</nav>
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h3>Create Mask</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <input id="newItemText" type="text" class="form-control" placeholder="New Task Name">
+                            </div>
+                            <div class="col-md-4 mt-3 mt-md-0">
+                                <a href="javascript:void(0)" onclick="addListItem()" class="btn btn-success btn-block">Add
+                                    Task List <i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-3 col-6">
+                                <h3>Task List</h3>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <a href="javascript:void(0)" onclick="completedButton()" class="btn btn-success btn-block">Tamamlandı</a>
+                            </div>
+                            <div class="col-md-3 col-6 mt-3 mt-md-0">
+                                <a href="javascript:void(0)" onclick="RemoveFromList()"
+                                   class="btn btn-danger btn-block">Listeden Çıkar</a>
+                            </div>
+                            <div class="col-md-3 col-6 mt-3 mt-md-0">
+                                <a href="javascript:void(0)" id="selectAllButton" onclick="selectAll()"
+                                   class="btn btn-primary btn-block">Tümünü Seç</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul id="ulList1" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-5 col-12">
+                                <h3>Completed Task</h3>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-12 mt-2 mt-sm-0 mt-md-0">
+                                <a href="javascript:void(0)" onclick="undoList()" class="btn btn-danger btn-block text-white"><i class="fa fa-undo"></i></a>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-12 mt-2 mt-sm-0 mt-md-0">
+                                <a href="javascript:void(0)" onclick="clearList()" class="btn btn-warning btn-block text-white"> Clear
+                                    List</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul id="ulList2" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="loader-wrapper" class="loader-wrapper">
+        <div class="loader">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
+        </div>
+</div>
+
+<footer>
+    <div class="mt-5 bg-dark text-center py-3 text-white">&COPY; 2020 Sercan Özen.</div>
+</footer>
+</div>
+
+<script src="assets/js/jquery-3.5.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+</body>
+</html>
